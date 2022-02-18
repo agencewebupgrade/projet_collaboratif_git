@@ -4,6 +4,7 @@ body {
 
 nav {
     background-color: lightgreen;
+    text-align: center;
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
     font-weight: 700;
     font-family: sans-serif;
     color: brown;
+    text-align: center;
 }
 
 h2 {
@@ -36,4 +38,5 @@ p {
 
 footer {
     background-color: lightgreen;
+    text-align: center;
 }
