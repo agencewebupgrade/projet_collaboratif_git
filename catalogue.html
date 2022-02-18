@@ -9,7 +9,7 @@
     <style>
         body {
             background-color:rgba(0, 0, 0, 0.4) ;
-            background: url(img/masterKebab.png);
+            background: url('img/ketchup.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -23,7 +23,7 @@
         <div class="col-1"></div>
         <div class="col-3 ml-3">
             <p class="h2 text-black font-monospace">Option</p>
-            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 0.4);">
+            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 1);">
                 <h6 class="font-monospace text-decoration-underline">Option<br/>de livraison</h6><br/>
                 <input type="checkbox" id="SSlivraison" name="SSlivraison"
                        >
@@ -36,7 +36,7 @@
                 <label for="livraisonDr">Livraison par drône</label>
             </div>
 
-            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 0.4);">
+            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 1);">
                 <h6 class="font-monospace text-decoration-underline">Restrictions alimentaires</h6><br/>
                 <input type="checkbox" id="SSgluten" name="SSgluten"
                        >
@@ -49,50 +49,47 @@
         
         </div> 
     
-        <div class="col-7 mr-3">
+        <div class="col-8 mr-3">
+            
             <p class="h2 text-black font-monospace">Catégorie sandwichs</p>
-            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 0.4);">
-                <h6 class="font-monospace text-decoration-underline"Maxi kebab et sa sauce blanche</h6><br/>
-                <div class="row p-2">
-                    <img class="p-0 border border-black rounded" src="kebab.jpeg" alt="KebabSauceBlanche"/>
-                    <p class="p-3 text-black font-monospace">Magic Kebab Stick vous présente son maxi kebab et sa sauce blanche, servi avec salade, tomates et oignons.<br/>Bon appétit !</p>
-                    <a class="btn btn-warning text-black" href="ficheProduit.html" role="button">Commander !</a>
+            
+            <div class="row">
+                <div class="card col-4 p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 1);">
+                    <h6 class="font-monospace text-decoration-underline">Maxi kebab et sa sauce blanche</h6><br/>
+                    <div class="row p-2">
+                        <img class="p-0 border border-black rounded" src="kebab.jpeg" alt="KebabSauceBlanche"/>
+                        <p class="p-3 text-black font-monospace">Magic Kebab Stick vous présente son maxi kebab et sa sauce blanche, servi avec salade, tomates et oignons.<br/>Bon appétit !</p>
+                        <a class="btn btn-warning text-black" href="ficheProduit.html" role="button">Commander !</a>
+                    </div>
+                </div>
+
+                
+
+                <div class="card col-4 p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 1);">
+                    <h6 class="font-monospace text-decoration-underline">Maxi kefta et sa sauce harissa</h6><br/>
+                        <div class="row p-2">
+                            <img class="p-0 border border-black rounded" src="img/kefta.jpeg" alt="KeftaSauceHarissa"/>
+                            <p class="p-3 text-black font-monospace">Magic Kebab Stick vous présente son maxi kefta et sa sauce harissa, délicieusement épicé, servi avec salade, tomates et chou rouge.<br/>Bon appétit !</p>
+                            <a class="btn btn-warning text-black sticky-bottom" href="ficheProduit.html" role="button">Commander !</a>
+                        </div>
+                
                 </div>
             </div>
+            
+            <div class="row">
+                <div class="card col-4 p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 1);">
+                                <h6 class="font-monospace text-decoration-underline">Maxi barquette de frites</h6><br/>
+                        <div class="row p-2">
+                            <img class="p-0 border border-black rounded" src="img/frite.jpg" alt="BarquetteDeFrites"/>
+                            <p class="p-3 text-black font-monospace">Barquette de frites classique... Fraîche et croustillante.<br/>Bon appétit !</p>
+                            <a class="btn btn-warning text-black" href="ficheProduit.html" role="button">Commander !</a>
+                        </div>
+                
+                </div>
 
-            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 0.4);">
-                <h6 class="font-monospace text-decoration-underline">Maxi kefta et sa sauce harissa</h6><br/>
-                    <div class="row p-2">
-                        <img class="p-0 border border-black rounded" src="img/kefta.jpeg" alt="KeftaSauceHarissa"/>
-                        <p class="p-3 text-black font-monospace">Magic Kebab Stick vous présente son maxi kefta et sa sauce harissa, délicieusement épicé, servi avec salade, tomates et chou rouge.<br/>Bon appétit !</p>
-                        <a class="btn btn-warning text-black" href="ficheProduit.html" role="button">Commander !</a>
-                    </div>
-                
+                <div class="col-1"></div>
             </div>
-
-            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 0.4);">
-                <h6 class="font-monospace text-decoration-underline">Maxi barquette de frites</h6><br/>
-                    <div class="row p-2">
-                        <img class="p-0 border border-black rounded" src="img/frite.jpg" alt="BarquetteDeFrites"/>
-                        <p class="p-3 text-black font-monospace">Barquette de frites classique... Fraîche et croustillante.<br/>Bon appétit !</p>
-                        <a class="btn btn-warning text-black" href="ficheProduit.html" role="button">Commander !</a>
-                    </div>
-                
-            </div>
-
-            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 0.4);">
-                <h6 class="font-monospace text-decoration-underline">Menu kefta et sa sauce harissa</h6><br/>
-                <div class="row p-2"></div>
-                
-                
-            </div>
-
-            <div class="card p-4 my-2 mx-2" style="background:rgba(255, 255, 255, 0.4);">
-                <h6 class="font-monospace text-decoration-underline">Menu kefta et sa sauce harissa</h6><br/>
-                <div class="row p-2"></div>
-                
-                
-            </div>
+            
         </div>
         <div class="col-1"></div>
     </div>
