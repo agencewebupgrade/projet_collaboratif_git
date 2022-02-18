@@ -4,8 +4,20 @@ body {
 
 nav {
     background-color: lightgreen;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+
+   
+
 
 ul {
     list-style-type: none;
