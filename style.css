@@ -1,0 +1,26 @@
+.Catégorie {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(215, 236, 250);
+    margin-left: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+    
+}
+li {
+    list-style-type: none;
+    margin-bottom: 30px;
+    
+}
+
+.abc {
+    display: flex;
+    margin-top: 100px;
+}
+img {
+    height: 500px;
+    width: 500px;
+}
