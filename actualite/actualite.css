@@ -1,0 +1,19 @@
+img {
+    height: 500px;
+    width: 500px;
+}
+
+#txt1 {
+    display: flex;
+    font-size: 40px;
+}
+
+#txt2 {
+    display: flex;
+    font-size: 40px;
+}
+
+#txt3 {
+    display: flex;
+    font-size: 40px;
+}
